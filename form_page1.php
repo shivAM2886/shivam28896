@@ -33,11 +33,11 @@ body, html {
 <h2>Personal Details:</h2>
 </legend>
 <?php
-$name=$_POST['name'];
-$gender=$_POST['gender'];
-$age=$_ POST['age'];
-$city=$_POST['city'];
-$email=$_POST['email'];
+$name=$_ GET['name'];
+$gender=$_ GET['gender'];
+$age=$_ GET['age'];
+$city=$_ GET['city'];
+$email=$_ GET['email'];
 echo 'Please check your personal details<br>';
 echo 'Name: ' .$name. '<br>';
 echo 'Gender: ' .$gender. '<br>';
